@@ -1,0 +1,44 @@
+{
+  "name": "quill-format-blockquote",
+  "version": "1.0.0",
+  "description": "Grouped and nested blockquotes for Quill 2",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./blockquote.js",
+  "types": "./blockquote.d.ts",
+  "exports": {
+    ".": {
+      "types": "./blockquote.d.ts",
+      "default": "./blockquote.js"
+    },
+    "./style.css": "./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudoo/quill-format-blockquote.git"
+  },
+  "keywords": [
+    "quill",
+    "quill2",
+    "blockquote",
+    "nested"
+  ],
+  "files": [
+    "blockquote.js",
+    "blockquote.d.ts",
+    "style.css"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "quill": "^2.0.3"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "quill": "^2.0.3"
+  }
+}

@@ -1,0 +1,5 @@
+.ql-editor .ql-blockquote-line { margin-inline-start: calc(var(--blockquote-depth, 0) * 1em); }
+.ql-editor .ql-blockquote-line:not([data-blockquote-depth='1']) {
+  border-left: 4px solid #ccc;
+  padding-inline-start: 0.5em;
+}
